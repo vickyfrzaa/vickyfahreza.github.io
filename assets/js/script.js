@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  const preloader = document.querySelector(".site-preloader");
   const navbar = document.querySelector(".top-nav");
   const navLinks = document.querySelectorAll(".nav-link");
   const navbarCollapse = document.querySelector(".navbar-collapse");
@@ -73,6 +74,29 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
 
   const revealItems = document.querySelectorAll(revealSelectors.join(","));
+
+  if (preloader) {
+    document.body.classList.add("is-loading");
+
+    function hidePreloader() {
+      preloader.classList.add("is-hidden");
+      document.body.classList.remove("is-loading");
+
+      window.setTimeout(function () {
+        preloader.remove();
+      }, 500);
+    }
+
+    if (document.readyState === "complete") {
+      window.setTimeout(hidePreloader, 250);
+    } else {
+      window.addEventListener("load", function () {
+        window.setTimeout(hidePreloader, 250);
+      });
+    }
+
+    window.setTimeout(hidePreloader, 2500);
+  }
 
   revealItems.forEach(function (item, index) {
     item.classList.add("reveal-item");
