@@ -1,691 +1,1713 @@
-<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Vicky Fahreza's Portfolio" />
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <title>Vicky Fahreza Portfolio</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-
-    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" />
   </head>
-  <body>
-    <!-- NAVBAR -->
-    <section id="header" class="header">
-      <div class="main-menu">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light shadow-lg">
-          <div class="container">
-            <!-- AVATAR -->
-            <a class="navbar-brand fw-bold" href="#">
-              <img src="img/crop.jpeg" alt="" class="avatar rounded-circle" />
-              <!-- Vicky Fahreza Racasiwi -->
-            </a>
-            <!-- END -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto fw-bold">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">Profile</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#service">Experience</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </section>
-    <!-- END -->
 
-    <main class="main-area justify-content-center">
-      <!-- ABOUT -->
-      <div id="profile" class="profile-area py-4">
-        <div class="container">
-          <div class="row g-2">
-            <div class="col-lg-6 col-md-12 site-title">
-              <h3 class="title-text">Hey,</h3>
-              <h1 class="title-text text-uppercase">I'm Vicky</h1>
-              <h4 class="title-text text-uppercase">Web Developer</h4>
-              <div class="site-buttons">
-                <!-- <div class="d-flex flex-row flex-wrap">
-                  <button type="button" class="btn btn-outline-primary mr-4 text-uppercase">Hire Me</button>
-                  <button type="button" class="btn btn-outline-primary text-uppercase">Get CV</button>
-                </div> -->
-                <div class="social-media">
-                  <div class="col-auto me-auto">
-                    <ul class="list-inline text-left footer-icons">
-                      <li class="list-inline-item border border-light rounded-circle text-center">
-                        <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/in/vicky-fahreza-aaa683208/"><i class="fab fa-linkedin-in fa-lg fa-fw"></i></a>
-                      </li>
-                      <li class="list-inline-item border border-light rounded-circle text-center">
-                        <a class="text-light text-decoration-none" target="_blank" href="https://github.com/vickyfrzaa"><i class="fab fa-github fa-lg fa-fw"></i></a>
-                      </li>
-                      <li class="list-inline-item border border-light rounded-circle text-center">
-                        <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/vickyfrzaa/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
-                      </li>
-                      <li class="list-inline-item border border-light rounded-circle text-center">
-                        <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
-                      </li>
-                      <li class="list-inline-item border border-light rounded-circle text-center">
-                        <a
-                          class="text-light text-decoration-none"
-                          target="_blank"
-                          href="
-                        https://wa.me/6287832495551"
-                          ><i class="fab fa-whatsapp fa-lg fa-fw"></i
-                        ></a>
-                      </li>
-                      <li class="list-inline-item border border-light rounded-circle text-center">
-                        <a class="text-light text-decoration-none" target="_blank" href="mailto:vickyfahreza23@gmail.com"><i class="fas fa-at fa-lg fa-fw"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-12 banner-image">
-              <img src="img/banner-image.png" alt="benner-img" class="img-fluid" />
-            </div>
+  <body>
+    <main class="hero-page">
+      <nav class="navbar navbar-expand-lg top-nav">
+        <div class="container-fluid px-0">
+          <a class="navbar-brand" href="#intro">Vicky.</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+            <ul class="navbar-nav align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#intro">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-      <!-- END -->
+      </nav>
 
-      <!-- About Me -->
-      <section id="about" class="about-area">
-        <div class="container">
-          <div class="row justify-content-center pb-4">
-            <div class="col-lg-6 col-md-12 about-title">
-            <h2 class="text-uppercase pt-5 font-weight-bold text-center">
-              About Me
-            </h2>
-          </div>
-          </div>
-          <article class="blog-post">
-            <div class="blog-post_img">
-              <img src="img/iky.png" alt="">
-            </div>
-            <div class="blog-post_info">
-              <div class="container">
-                <p class="para">
-                  I have a basic Programming, design thinking and passion for learning new things. I look forward to the opportunity to speak about my interest in this position.
-                  I have experience working in the IT Staff division as a FrontEnd Developer Intern at Kominfo Tangerang, I also have experience working in the IT System Engineer / IT Support Intern division at Sentral Cargo Jakarta and for my experience as an employee when I worked at PT. GED Lintas Indonesia as IT Web Developer.
-                  Currently I have completed my education at Bina Nusantara University Jakarta.
-                  Working as a team in my past Internship, it helped develop my communication skills and helped me to have a better understanding about teamwork on a professional level.
-                </p>
+      <div class="container-fluid p-0">
+        <div class="row g-0">
+          <section class="col-lg-6 hero-left" id="intro">
+            <div class="hero-content">
+              <p class="eyebrow text-uppercase">Hello</p>
+              <h1 class="hero-title">I'm Vicky Fahreza</h1>
+              <p class="hero-subtitle">
+                I'm a
+                <span
+                  class="typed"
+                  data-typed-items="Tech Lead Developer, Fullstack Developer, Freelancer"
+                ></span>
+                <span class="typed-cursor" aria-hidden="true"></span>
+              </p>
+
+              <div class="button-group d-flex flex-column flex-sm-row gap-3">
+                <a href="#about" class="btn btn-hero btn-dark-custom">More About Me</a>
+                <a href="#contact" class="btn btn-hero btn-outline-custom">Get In Touch</a>
               </div>
-              
-              <a class="blog-post_btn d-grid gap-2 col-6 mx-auto" href="#exampleModalcv" data-bs-toggle="modal" data-bs-target="#exampleModalcv">
-                <i class="far fa-file-pdf text-dark fw-bold text-center"> Download CV</i>
+            </div>
+          </section>
 
-                <div class="modal fade" id="exampleModalcv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Vicky Fahreza Racasiwi - CV</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        <img src="img/Vicky Fahreza CV.png" alt="Picture 1">
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <section class="col-lg-6 hero-right" aria-label="Portfolio image">
+            <img src="assets/img/foto1.jpg" class="hero-photo" alt="Portfolio portrait" />
+
+            <div class="hero-cv-wrap">
+              <span class="hero-line" aria-hidden="true"></span>
+              <a
+                href="assets/pdf/Vicky Fahreza Racasiwi - CV ATS.pdf"
+                class="btn btn-hero btn-cv"
+                download
+              >
+                Get My CV
               </a>
             </div>
-          </article>
+
+            <div class="social-rail" aria-label="Social media links">
+              <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" aria-label="Dribbble"><i class="bi bi-dribbble"></i></a>
+              <a href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a>
+              <span class="rail-line" aria-hidden="true"></span>
+            </div>
+
+            <a href="#about" class="scroll-btn" aria-label="Scroll down">
+              <i class="bi bi-caret-down-fill"></i>
+            </a>
+          </section>
         </div>
-      </section>
-      <!-- END -->
-
-      <!-- About Me -->
-      <!-- <section id="about" class="about-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-12">
-              <div class="about-image">
-                <img src="img/iky.png" alt="About us" class="img-fluid" />
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-12 about-title">
-              <h2 class="text-uppercase pt-5 font-weight-bold">
-                <span>Let me</span>
-                <span>introduce</span>
-                <span>myself</span>
-              </h2>
-              <div class="paragraph py-4 w-75">
-                <p class="para">
-                  Hello, My name is Vicky Fahreza Racasiwi, A fresh graduate from Binus University majoring in Computer Science that having the integrity to build new experiences within new challenging circumstances for my future career. Being able to contribute with the company based on my skills. I am a results-oriented frontend web developer with excellent communication skills.
-                </p>
-                <p class="para">
-                  I have a basic Programming, design thinking and passion for learning new things. I look forward to the opportunity to speak about my interest in this position.
-                  I have experience working in the IT Staff division as a FrontEnd Developer Intern at Kominfo Tangerang, I also have experience working in the IT System Engineer / IT Support Intern division at Sentral Cargo Jakarta and for my experience as an employee when I worked at PT. GED Lintas Indonesia as IT Web Developer.
-                  Currently I have completed my education at Bina Nusantara University Jakarta.
-                  Working as a team in my past Internship, it helped develop my communication skills and helped me to have a better understanding about teamwork on a professional level.
-                </p>
-              </div>
-              <div class="social-media">
-                <ul class="list-inline text-left footer-icons">
-                  <li class="list-inline-item border border-light rounded-circle text-center">
-                    <a class="text-light text-decoration-none" href="#exampleModalcv" data-bs-toggle="modal" data-bs-target="#exampleModalcv">
-                      <i class="far fa-file-pdf"></i>
-                    </a>
-                  </li>
-                </ul>
-                <div class="modal fade" id="exampleModalcv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Vicky Fahreza Racasiwi - CV</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        <img src="img/Vicky Fahreza CV.png" alt="Picture 1">
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- End -->
-
-      <!-- experience -->
-      <section id="service" class="service-area py-5">
-        <div class="container py-4">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="section-title text-center">
-                <h2 class="text-center py-3">Experience</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row g-4">
-            <div class="col-md-6 col-lg-6">
-              <div class="service-item shadow p-4 rounded bg-white">
-                <div class="icon my-3 text-danger h2 text-center">
-                  <i class="far fa-lightbulb"></i>
-                </div>
-                <h3 class="h5 py-2 text-center">Frontend Developer</h3>
-                <ul class="text-muted">
-                  <li>Created a website display for one of the districts in Tangerang.</li>
-                  <li>Frontend Develop using HTML, CSS, JS</li>
-                  <li>My website using some framework CSS like Bootstrap & Jquery</li>
-                  <li>Created database.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-6">
-              <div class="service-item2 shadow p-4 rounded bg-white">
-                <div class="icon my-3 text-danger h2 text-center">
-                  <i class="fas fa-code"></i>
-                </div>
-                <h3 class="h5 py-2 text-center">Web Developer</h3>
-                <ul class="text-mute">
-                  <li>Created a website for later vendors to use to check all the history of goods that have been sent.</li>
-                  <li>Making the website using HTML, CSS, JavaScript, Bootstrap, Jquery, for the Backend using PHP CI3 and the database using HeidiSQL.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-6">
-              <div class="service-item shadow p-4 rounded bg-white">
-                <div class="icon my-3 text-danger h2 text-center">
-                  <i class="fas fa-code"></i>
-                </div>
-                <h3 class="h5 py-2 text-center">Web Developer & IT Support</h3>
-                <ul class="text-mute">
-                  <li>Created an internal inventory website for employees.</li>
-                  <li>Making the website using HTML, CSS as the frontend and PHP Native as the Backend and also MySql as the database using PHPMyAdmin.</li>
-                  <li>Being IT Support that helps employees such as repairing LAN, assembling 1 SET of computers to be used in branch offices, repairing hardware and software.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-6">
-              <div class="service-item2 shadow p-4 rounded bg-white">
-                <div class="icon my-3 text-danger h2 text-center">
-                  <i class="fas fa-code"></i>
-                </div>
-                <h3 class="h5 py-2 text-center">Lead Web Developer</h3>
-                <ul class="text-mute">
-                  <li>Created a website for new product company.</li>
-                  <li>Making the website using HTML, CSS, JavaScript, Bootstrap, Jquery, for the Backend using PHP Laravel and the database using SQL.</li>
-                  <li>Created a API.</li>
-                  <li>Make Flow and Schema.</li>
-                  <li>Created database.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- END -->
-
-      <!-- portfolio -->
-      <section id="portfolio" class="portfolio-area py-5">
-        <div class="container py-4">
-          <div class="row mb-5">
-            <div class="col-md-8 mx-auto text-center">
-              <!-- <h6 class="text-primary">Product</h6> -->
-              <h1>Portfolio</h1>
-              <!-- <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident neque dignissimos, voluptates iure consequuntur ex nesciunt cupiditate labore quasi omnis iusto rem nihil esse cumque dolorum voluptatibus repellat ullam
-                dicta?
-              </p> -->
-            </div>
-          </div>
-          <div class="row g-3 justify-content-center">
-            <div class="col-md-4 col-sm-3">
-              <div class="project">
-                <a href="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                  <img src="img/anidoc.JPG" alt="Picture 1" />
-                  <div class="overlay">
-                    <!-- <h4 class="text-white">Product Title</h4> -->
-                    <h4 class="text-dark fw-bold">FrontEnd Developer</h4>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">FrontEnd Developer</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="gallery-section">
-                            <div class="gallery-item">
-                              <input type="radio" id="img-1" checked name="gallery" class="gallery-selector">
-                              <img src="img/anidoc.JPG" alt="Picture 1" class="gallery-img" />
-                              <label for="img-1" class="gallery-thumb">
-                                <img src="img/anidoc.JPG" alt="Picture 1" />
-                              </label>
-                            </div>
-
-                            <div class="gallery-item">
-                              <input type="radio" id="img-2" name="gallery" class="gallery-selector">
-                              <img src="img/user.jpg" alt="Picture 2" class="gallery-img" />
-                              <label for="img-2" class="gallery-thumb">
-                                <img src="img/user.jpg" alt="Picture 2" />
-                              </label>
-                            </div>
-                            
-                            <div class="gallery-item">
-                              <input type="radio" id="img-3" name="gallery" class="gallery-selector">
-                              <img src="img/profile.jpg" alt="Picture 3" class="gallery-img" />
-                              <label for="img-3" class="gallery-thumb">
-                                <img src="img/profile.jpg" alt="Picture 3" />
-                              </label>
-                            </div>
-
-                            <div class="gallery-item">
-                              <input type="radio" id="img-4" name="gallery" class="gallery-selector">
-                              <img src="img/login.jpg" alt="Picture 4" class="gallery-img" />
-                              <label for="img-4" class="gallery-thumb">
-                                <img src="img/login.jpg" alt="Picture 4" />
-                              </label>
-                            </div>
-                          </div>
-                          <!-- <img src="img/anidoc.JPG" alt="Picture 1" /> -->
-                        </div>
-                        <div class="col-md-6 ms-auto">
-                          <p>- I Created the website use a team, and my position is a FrontEnd Developer.</p>
-                          <p>- I Created the website using some framework like a bootstrap and jquery.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-3">
-              <div class="project">
-                <a href="#exampleModal2" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                  <img src="img/brand.JPG" alt="Picture 2" />
-                  <div class="overlay">
-                    <!-- <h4 class="text-white">Product Title</h4> -->
-                    <h4 class="text-dark fw-bold">FrontEnd Developer</h4>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">FrontEnd Developer</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <img src="img/brand.JPG" alt="Picture 1" />
-                        </div>
-                        <div class="col-md-6 ms-auto">
-                          <p>- I Created the website use a team, and my position is a FrontEnd Developer.</p>
-                          <p>- I Created the website using some framework like a bootstrap and jquery.</p>
-                          <p>- Design web by me, and i think about all design.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-3">
-              <div class="project">
-                <a href="#exampleModal3" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                  <img src="img/1.jpg" alt="Picture 3" />
-                  <div class="overlay">
-                    <!-- <h4 class="text-white">Product Title</h4> -->
-                    <h4 class="text-dark fw-bold">FrontEnd Developer</h4>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">FrontEnd Developer</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="gallery-section">
-                            <div class="gallery-item">
-                              <input type="radio" id="img-9" checked name="gallery" class="gallery-selector">
-                              <img src="img/1.jpg" alt="Picture 9" class="gallery-img"/>
-                              <label for="img-9" class="gallery-thumb">
-                                <img src="img/1.jpg" alt="Picture 9" />
-                              </label>
-                            </div>
-
-                            <div class="gallery-item">
-                              <input type="radio" id="img-10" name="gallery" class="gallery-selector">
-                              <img src="img/2.jpg" alt="Picture 10" class="gallery-img"/>
-                              <label for="img-10" class="gallery-thumb">
-                                <img src="img/2.jpg" alt="Picture 10" />
-                              </label>
-                            </div>
-
-                            <div class="gallery-item">
-                              <input type="radio" id="img-11" name="gallery" class="gallery-selector">
-                              <img src="img/3.jpg" alt="Picture 11" class="gallery-img"/>
-                              <label for="img-11" class="gallery-thumb">
-                                <img src="img/3.jpg" alt="Picture 11" />
-                              </label>
-                            </div>
-
-                            <div class="gallery-item">
-                              <input type="radio" id="img-12" name="gallery" class="gallery-selector">
-                              <img src="img/4.jpg" alt="Picture 12" class="gallery-img"/>
-                              <label for="img-12" class="gallery-thumb">
-                                <img src="img/4.jpg" alt="Picture 12" />
-                              </label>
-                            </div>
-                          </div>
-                          <!-- <img src="img/1.jpg" alt="Picture 1" /> -->
-                        </div>
-                        <div class="col-md-6 ms-auto">
-                          <p>- I Created the website alone.</p>
-                          <p>- I Created the website using some framework like a bootstrap and jquery.</p>
-                          <p>- Design Web by me too, and little from client.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-3">
-              <div class="project">
-                <a href="#exampleModal4" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                  <img src="img/legalku/1.jpg" alt="Picture 14" />
-                  <div class="overlay">
-                    <!-- <h4 class="text-white">Product Title</h4> -->
-                    <h4 class="text-dark fw-bold">Web Developer</h4>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="row g-3 justify-content-center">
-            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Web Developer</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="gallery-section">
-                            <div class="gallery-item">
-                              <input type="radio" id="img-13" checked name="gallery" class="gallery-selector">
-                              <img src="img/legalku/1.jpg" alt="Picture 13" class="gallery-img"/>
-                              <label for="img-13" class="gallery-thumb">
-                                <img src="img/legalku/1.jpg" alt="Picture 13" />
-                              </label>
-                            </div>
-
-                            <div class="gallery-item">
-                              <input type="radio" id="img-14" name="gallery" class="gallery-selector">
-                              <img src="img/legalku/2.jpg" alt="Picture 14" class="gallery-img"/>
-                              <label for="img-14" class="gallery-thumb">
-                                <img src="img/legalku/2.jpg" alt="Picture 14" />
-                              </label>
-                            </div>
-
-                            <div class="gallery-item">
-                              <input type="radio" id="img-15" name="gallery" class="gallery-selector">
-                              <img src="img/legalku/3.jpg" alt="Picture 15" class="gallery-img"/>
-                              <label for="img-15" class="gallery-thumb">
-                                <img src="img/legalku/3.jpg" alt="Picture 15" />
-                              </label>
-                            </div>
-
-                            <div class="gallery-item">
-                              <input type="radio" id="img-16" name="gallery" class="gallery-selector">
-                              <img src="img/legalku/4.jpg" alt="Picture 16" class="gallery-img"/>
-                              <label for="img-16" class="gallery-thumb">
-                                <img src="img/legalku/4.jpg" alt="Picture 16" />
-                              </label>
-                            </div>
-                            <div class="gallery-item">
-                              <input type="radio" id="img-17" name="gallery" class="gallery-selector">
-                              <img src="img/legalku/5.jpg" alt="Picture 17" class="gallery-img"/>
-                              <label for="img-17" class="gallery-thumb">
-                                <img src="img/legalku/5.jpg" alt="Picture 17" />
-                              </label>
-                            </div>
-                            <div class="gallery-item">
-                              <input type="radio" id="img-18" name="gallery" class="gallery-selector">
-                              <img src="img/legalku/6.jpg" alt="Picture 18" class="gallery-img"/>
-                              <label for="img-18" class="gallery-thumb">
-                                <img src="img/legalku/6.jpg" alt="Picture 18" />
-                              </label>
-                            </div>
-                            <div class="gallery-item">
-                              <input type="radio" id="img-19" name="gallery" class="gallery-selector">
-                              <img src="img/legalku/7.jpg" alt="Picture 19" class="gallery-img"/>
-                              <label for="img-19" class="gallery-thumb">
-                                <img src="img/legalku/7.jpg" alt="Picture 19" />
-                              </label>
-                            </div>
-                          </div>
-                          <!-- <img src="img/1.jpg" alt="Picture 1" /> -->
-                        </div>
-                        <div class="col-md-6 ms-auto">
-                          <p>- I Created the website.</p>
-                          <p>- I Created Schema and Flow.</p>
-                          <p>- I Created the website using some framework like a bootstrap, jquery and Laravel.</p>
-                          <p>- Design Web.</p>
-                          <p>- Make API.</p>
-                          <p>- I Created FrontEnd And Backend.</p>
-                          <p>- I Created database.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-              <!-- <div class="project">
-                <a href="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                  <img src="img/pict10.png" alt="Picture 4" />
-                  <div class="overlay">
-                    <h4 class="text-white">Product Title</h4>
-                    <h4 class="text-white">Rempah - Rempah</h4>
-                  </div>
-                </a>
-              </div>
-            </div> -->
-          </div>
-        </div>
-      </section>
-      <!-- END -->
+      </div>
     </main>
 
-    <!-- FOOTER -->
-<footer id="contact" class="contact-area bg-dark">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 pt-5">
-        <h2 class="h2 border-bottom pb-3 border-light logo fw-bold" style="color: #da3d46">Vicky Fahreza Racasiwi</h2>
-        <ul class="list-unstyled text-light footer-link-list">
-          <li>
-            <i class="fas fa-map-marker-alt fa-fw"></i>
-            Indonesia
-          </li>
-          <li>
-            <i class="fa fa-phone fa-fw"></i>
-            <a class="text-decoration-none" href="https://wa.me/6287832495551">+62 87832495551</a>
-          </li>
-          <li>
-            <i class="fa fa-envelope fa-fw"></i>
-            <a class="text-decoration-none" href="mailto:vickyfahreza23@gmail.com">vickyfahreza23@gmail.com</a>
-          </li>
-        </ul>
-      </div>
+    <section class="about-section" id="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-heading text-center">
+          <p class="section-kicker text-uppercase">About</p>
+          <h2>About Me</h2>
+          <p class="section-description mx-auto">
+            I am a Full-Stack Developer and Tech Lead Developer with 2 years of leadership
+            experience in application architecture, code review, API design, team mentoring, and
+            system integration with SAP, ERP, and external APIs.
+          </p>
+        </div>
 
-      <div class="col-md-4 pt-5">
-        <h2 class="h2 text-light border-bottom pb-3 border-light">Information</h2>
-        <ul class="list-unstyled text-light footer-link-list">
-          <li><a class="text-decoration-none" href="#profile">Home</a></li>
-          <li><a class="text-decoration-none" href="#about">Profile</a></li>
-          <li><a class="text-decoration-none" href="#service">Experience</a></li>
-          <li><a class="text-decoration-none" href="#portfolio">Portfolio</a></li>
-          <li><a class="text-decoration-none" href="#contact">Contact</a></li>
-        </ul>
-      </div>
+        <div class="row align-items-stretch g-4 g-xl-5">
+          <div class="col-lg-4">
+            <div class="about-profile-card h-100">
+              <div class="avatar-wrap">
+                <img src="assets/img/profile.jpg" alt="Vicky Fahreza" class="avatar-img" />
+                <span class="avatar-status" aria-hidden="true"></span>
+              </div>
 
-      <div class="col-md-4 pt-5">
-        <h2 class="text-light border-bottom pb-3 border-light">Social Media</h2>
-        <ul class="list-inline text-left footer-icons pt-5">
-          <li class="list-inline-item border border-light rounded-circle text-center">
-            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/in/vicky-fahreza-aaa683208/"><i class="fab fa-linkedin-in fa-lg fa-fw"></i></a>
-          </li>
-          <li class="list-inline-item border border-light rounded-circle text-center">
-            <a class="text-light text-decoration-none" target="_blank" href="https://github.com/vickyfrzaa"><i class="fab fa-github fa-lg fa-fw"></i></a>
-          </li>
-          <li class="list-inline-item border border-light rounded-circle text-center">
-            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/vickyfrzaa/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
-          </li>
-          <li class="list-inline-item border border-light rounded-circle text-center">
-            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
+              <h3>Vicky Fahreza Racasiwi</h3>
+              <span class="profile-role">Tech Lead Developer</span>
+              <span class="profile-role">Full Stack Developer</span>
 
-    <div class="row text-white">
-      <hr>
+              <div
+                class="rating d-flex align-items-center justify-content-center gap-1"
+                aria-label="Rating 4.8 out of 5"
+              >
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <span>4.8</span>
+              </div>
 
-      <div class="copy-right bg-black">
-        <div class="container">
-          <div class="rowS">
-            <div class="col-12">
-              <p class="text-center text-light">Copyright &copy; 2021 <a href="index.html" class="text-danger">Vicky Fahreza Racasiwi</a> | Designed by <a rel="sponsored" href="#" target="_blank">Iky</a></p>
+              <div class="profile-stats row g-0 text-center">
+                <div class="col-4">
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="50"
+                    data-purecounter-duration="1"
+                    data-purecounter-suffix="+"
+                    class="purecounter stat-number"
+                  ></span>
+                  <span class="stat-label">Projects</span>
+                </div>
+                <div class="col-4">
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="5"
+                    data-purecounter-duration="1"
+                    data-purecounter-suffix="+"
+                    class="purecounter stat-number"
+                  ></span>
+                  <span class="stat-label">Years</span>
+                </div>
+                <div class="col-4">
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="4"
+                    data-purecounter-duration="1"
+                    class="purecounter stat-number"
+                  ></span>
+                  <span class="stat-label">Certificates</span>
+                </div>
+              </div>
+              <div class="d-grid gap-2 col-6 w-100 mx-auto">
+                <a
+                  href="assets/pdf/Vicky Fahreza Racasiwi - CV ATS.pdf"
+                  class="btn about-download w-100"
+                  download
+                >
+                  <i class="bi bi-download"></i>
+                  Download CV
+                </a>
+                <a href="#contact" class="btn about-download w-100">
+                  <i class="bi bi-envelope"></i>
+                  Contact Me
+                </a>
+              </div>
+              <div class="social-connect">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-github"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="about-content h-100">
+              <span class="about-pill text-uppercase">About Me</span>
+              <h3>Transforming Ideas into Digital Reality</h3>
+              <p>
+                I am a Full-Stack Developer and Tech Lead Developer with experience in building
+                end-to-end web applications, designing application architecture, leading development
+                teams, and managing system integrations. I have worked with various technologies
+                such as Laravel, PHP, JavaScript, Vue.js, React.js, REST API, MySQL, PostgreSQL, SQL
+                Server, and integrations with SAP, ERP, and external APIs.
+              </p>
+              <p>
+                For the past 2 years, I have been working as a Tech Lead Developer, where I am
+                responsible for providing technical direction, reviewing code, designing scalable
+                API structures, mentoring developers, and ensuring that each project is delivered
+                with good quality and aligned with business needs. I am passionate about solving
+                complex technical problems, improving system performance, and creating reliable
+                digital solutions that help businesses operate more effectively.
+              </p>
+
+              <div class="row g-4 about-info-grid">
+                <div class="col-md-6">
+                  <div class="info-card d-flex align-items-center">
+                    <i class="bi bi-briefcase"></i>
+                    <div>
+                      <span>Experience</span>
+                      <strong>5+ Years</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-card d-flex align-items-center">
+                    <i class="bi bi-mortarboard"></i>
+                    <div>
+                      <span>Degree</span>
+                      <strong>Computer Science</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-card d-flex align-items-center">
+                    <i class="bi bi-geo-alt"></i>
+                    <div>
+                      <span>Based In</span>
+                      <strong>Indonesia</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-card d-flex align-items-center">
+                    <i class="bi bi-envelope"></i>
+                    <div>
+                      <span>Email</span>
+                      <strong>vickyfahreza23@gmail.com</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-card d-flex align-items-center">
+                    <i class="bi bi-envelope"></i>
+                    <div>
+                      <span>Phone</span>
+                      <strong>+62 812 3456 7890</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-card d-flex align-items-center">
+                    <i class="bi bi-envelope"></i>
+                    <div>
+                      <span>Availability</span>
+                      <strong>Available for work / Freelance</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- <div class="col-auto me-auto">
-        <ul class="list-inline text-left footer-icons">
-          <li class="list-inline-item border border-light rounded-circle text-center">
-            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/in/vicky-fahreza-aaa683208/"><i class="fab fa-linkedin-in fa-lg fa-fw"></i></a>
+    <section class="resume-section" id="resume">
+      <div class="container" data-aos="fade-up">
+        <div class="section-heading text-center">
+          <p class="section-kicker text-uppercase">Resume</p>
+          <h2>My Resume</h2>
+        </div>
+        <ul class="nav resume-tabs justify-content-center" id="resumeTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="resume-tab active"
+              id="experience-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#resume-experience"
+              type="button"
+              role="tab"
+              aria-controls="resume-experience"
+              aria-selected="true"
+            >
+              <span>01</span>
+              Experience
+            </button>
           </li>
-          <li class="list-inline-item border border-light rounded-circle text-center">
-            <a class="text-light text-decoration-none" target="_blank" href="https://github.com/vickyfrzaa"><i class="fab fa-github fa-lg fa-fw"></i></a>
+          <li class="nav-item" role="presentation">
+            <button
+              class="resume-tab"
+              id="education-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#resume-education"
+              type="button"
+              role="tab"
+              aria-controls="resume-education"
+              aria-selected="false"
+            >
+              <span>02</span>
+              Education
+            </button>
           </li>
-          <li class="list-inline-item border border-light rounded-circle text-center">
-            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/vickyfrzaa/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+          <li class="nav-item" role="presentation">
+            <button
+              class="resume-tab"
+              id="skills-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#resume-skills"
+              type="button"
+              role="tab"
+              aria-controls="resume-skills"
+              aria-selected="false"
+            >
+              <span>03</span>
+              Skills
+            </button>
           </li>
-          <li class="list-inline-item border border-light rounded-circle text-center">
-            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+          <li class="nav-item" role="presentation">
+            <button
+              class="resume-tab"
+              id="certification-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#resume-certification"
+              type="button"
+              role="tab"
+              aria-controls="resume-certification"
+              aria-selected="false"
+            >
+              <span>04</span>
+              Certification
+            </button>
           </li>
         </ul>
-      </div> -->
-    </div>
-  </div>
 
-  
-</footer>
-<!-- END -->
+        <div class="tab-content resume-tab-content" id="resumeTabsContent">
+          <div
+            class="tab-pane fade show active"
+            id="resume-experience"
+            role="tabpanel"
+            aria-labelledby="experience-tab"
+            tabindex="0"
+          >
+            <div class="resume-panel-heading text-center">
+              <span class="resume-line" aria-hidden="true"></span>
+              <h2>Professional Experience</h2>
+              <p>
+                Experience in end-to-end web application development, system integration,
+                application architecture, and technical leadership.
+              </p>
+            </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+            <div class="resume-list">
+              <article class="resume-item">
+                <div>
+                  <h3>Technical Lead</h3>
+                  <h4>PT. Sinergi Informatika Semen Indonesia</h4>
+                  <p>
+                    Responsible for leading the development team and providing technical direction
+                    across multiple web application projects. In this role, I focus on designing
+                    scalable application architecture, defining API structures, reviewing code
+                    quality, and ensuring that development standards are consistently implemented. I
+                    also manage system integration with SAP, ERP platforms, and external APIs, while
+                    collaborating closely with Project Managers, QA, DevOps, and business
+                    stakeholders to ensure timely and high-quality project delivery.
+                  </p>
+                  <p class="fs-5">Key Responsibilities :</p>
+                  <ul>
+                    <li>
+                      Lead and mentor a team of developers, providing guidance on best practices and
+                      technical solutions.
+                    </li>
+                    <li>
+                      Design and review application architecture to ensure scalability,
+                      maintainability, and performance.
+                    </li>
+                    <li>
+                      Define API structures and oversee the development of RESTful APIs for web
+                      applications.
+                    </li>
+                    <li>
+                      Conduct code reviews to maintain high code quality and adherence to coding
+                      standards.
+                    </li>
+                    <li>
+                      Manage system integration with SAP, ERP platforms, and external APIs to ensure
+                      seamless data flow and functionality.
+                    </li>
+                    <li>
+                      Collaborate with cross-functional teams including Project Managers, QA,
+                      DevOps, and business stakeholders to ensure successful project delivery.
+                    </li>
+                  </ul>
+                </div>
+                <time>Jan 2025 - Present</time>
+              </article>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+              <article class="resume-item">
+                <div>
+                  <h3>Full Stack Developer</h3>
+                  <h4>PT. Sinergi Informatika Semen Indonesia</h4>
+                  <p>
+                    Developed and maintained web applications using various backend and frontend
+                    technologies. My responsibilities included backend development, frontend
+                    implementation, database integration, debugging, and performance improvement. I
+                    worked with multiple frameworks and databases to support business processes and
+                    deliver reliable application features.
+                  </p>
+                  <p class="fs-5">Key Responsibilities :</p>
+                  <ul>
+                    <li>
+                      Developed web applications using Laravel, CodeIgniter, Symfony, Lumen, Yii,
+                      Prado, and Ruby on Rails.
+                    </li>
+                    <li>
+                      Built responsive user interfaces using Vue.js, jQuery, Ajax, Bootstrap, and
+                      Tailwind CSS.
+                    </li>
+                    <li>
+                      Integrated applications with MySQL, PostgreSQL, SQL Server, and SAP data
+                      sources.
+                    </li>
+                    <li>Performed debugging, troubleshooting, and technical issue resolution.</li>
+                    <li>
+                      Improved existing application features and supported system maintenance.
+                    </li>
+                  </ul>
+                </div>
+                <time>Feb 2024 - Dec 2024</time>
+              </article>
 
-    <!-- FONTAWESOME -->
-    <script src="https://kit.fontawesome.com/7f2ed2a5ac.js" crossorigin="anonymous"></script>
+              <article class="resume-item">
+                <div>
+                  <h3>Full Stack Web Developer</h3>
+                  <h4>PT. Jobseeker Company</h4>
+                  <p>
+                    Responsible for developing and maintaining web applications from backend to
+                    frontend. I worked on backend logic, responsive UI implementation, API
+                    integration, and collaborative development using GitLab. This role strengthened
+                    my ability to deliver functional features, solve technical issues, and support
+                    application development cycles.
+                  </p>
+                  <p class="fs-5">Key Responsibilities :</p>
+                  <ul>
+                    <li>Developed backend features using Laravel and CodeIgniter.</li>
+                    <li>
+                      Implemented responsive frontend pages using Bootstrap, Ajax, HTML, CSS, and
+                      JavaScript.
+                    </li>
+                    <li>Integrated applications with REST APIs and external services.</li>
+                    <li>Collaborated with the development team using GitLab.</li>
+                    <li>Debugged application issues and provided technical solutions.</li>
+                  </ul>
+                </div>
+                <time>May 2023 - Jan 2024</time>
+              </article>
+
+              <article class="resume-item">
+                <div>
+                  <h3>Technical Lead</h3>
+                  <h4>PT. Legalku Digital Teknologi</h4>
+                  <p>
+                    Tech Lead development activities by managing tasks, monitoring progress,
+                    reviewing code, and supporting product delivery timelines. I was responsible for
+                    helping the team maintain development quality and ensuring that tasks were
+                    completed according to project priorities. This role gave me experience in team
+                    coordination, technical supervision, and product execution tracking.
+                  </p>
+                  <p class="fs-5">Key Responsibilities :</p>
+                  <ul>
+                    <li>Managed and monitored development tasks across the team.</li>
+                    <li>Conducted code reviews to maintain application quality.</li>
+                    <li>Planned and tracked product development timelines.</li>
+                    <li>
+                      Collaborated with project managers and stakeholders to align development
+                      efforts with business goals and project timelines.
+                    </li>
+                    <li>Coordinated task execution based on project priorities.</li>
+                    <li>Mentored developers and improved team work quality.</li>
+                  </ul>
+                </div>
+                <time>Oct 2022 - May 2023</time>
+              </article>
+
+              <article class="resume-item">
+                <div>
+                  <h3>Full Stack Web Development</h3>
+                  <h4>PT. Legalku Digital Teknologi</h4>
+                  <p>
+                    Built end-to-end web applications covering UI implementation, backend
+                    development, database design, and third-party integration. I also developed
+                    internal applications and improved existing systems to support business
+                    operations.
+                  </p>
+                  <p class="fs-5">Key Responsibilities :</p>
+                  <ul>
+                    <li>Built end-to-end web applications from frontend, backend, and database.</li>
+                    <li>Developed and improved internal business applications.</li>
+                    <li>Integrated Midtrans payment gateway into web applications.</li>
+                    <li>Designed and implemented database structures.</li>
+                    <li>Maintained and enhanced existing application features.</li>
+                  </ul>
+                </div>
+                <time>Mar 2022 - Sep 2022</time>
+              </article>
+
+              <article class="resume-item">
+                <div>
+                  <h3>Backend Developer</h3>
+                  <h4>PT. GED Lintas Indonesia</h4>
+                  <p>
+                    Worked as a backend developer for a vendor tracking application. My
+                    responsibilities focused on backend feature development, data validation, and
+                    MySQL database integration using CodeIgniter.
+                  </p>
+                  <p class="fs-5">Key Responsibilities :</p>
+                  <ul>
+                    <li>
+                      Developed backend features for a vendor tracking application using
+                      CodeIgniter.
+                    </li>
+                    <li>Implemented data validation and backend business logic.</li>
+                    <li>Integrated application features with MySQL database.</li>
+                    <li>Supported application testing and issue fixing.</li>
+                    <li>Provided technical support and troubleshooting for backend issues.</li>
+                  </ul>
+                </div>
+                <time>May 2021 - Aug 2021</time>
+              </article>
+
+              <article class="resume-item">
+                <div>
+                  <h3>Full Stack Web Developer &amp; IT Support</h3>
+                  <h4>Sentral Cargo</h4>
+                  <p>
+                    Developed an internal inventory website and supported IT operational tasks. This
+                    role gave me practical experience in web development, troubleshooting,
+                    networking, and hardware support.
+                  </p>
+                  <p class="fs-5">Key Responsibilities :</p>
+                  <ul>
+                    <li>Developed an inventory management website using PHP Native.</li>
+                    <li>Built frontend and backend features for internal operational needs.</li>
+                    <li>Supported IT troubleshooting, LAN connectivity, and hardware issues.</li>
+                    <li>Assisted users in resolving technical problems.</li>
+                    <li>Collaborated with team members to ensure smooth IT operations.</li>
+                  </ul>
+                </div>
+                <time>Sep 2019 - Apr 2020</time>
+              </article>
+
+              <article class="resume-item">
+                <div>
+                  <h3>Frontend Developer</h3>
+                  <h4>Kominfo Tangerang</h4>
+                  <p>
+                    Supported frontend development and website maintenance for government-related
+                    digital services. I worked on UI implementation, content updates, and basic
+                    website improvement tasks.
+                  </p>
+                  <p class="fs-5">Key Responsibilities :</p>
+                  <ul>
+                    <li>Developed and maintained frontend components for government websites.</li>
+                    <li>
+                      Implemented user interface improvements using HTML, CSS, and JavaScript.
+                    </li>
+                    <li>Supported website content updates and maintenance.</li>
+                    <li>Assisted in improving website usability and layout consistency.</li>
+                    <li>
+                      Collaborated with the team to ensure website functionality and performance.
+                    </li>
+                  </ul>
+                </div>
+                <time>Mar 2019 - Sep 2019</time>
+              </article>
+            </div>
+          </div>
+
+          <div
+            class="tab-pane fade"
+            id="resume-education"
+            role="tabpanel"
+            aria-labelledby="education-tab"
+            tabindex="0"
+          >
+            <div class="resume-panel-heading text-center">
+              <span class="resume-line" aria-hidden="true"></span>
+              <h2>Educational Background</h2>
+              <p>
+                Academic background that supports my foundation in software engineering, web
+                development, databases, and application design.
+              </p>
+            </div>
+
+            <div class="resume-list resume-education-list">
+              <article class="resume-item">
+                <time>Apr 2021</time>
+                <div>
+                  <h3>Computer Science</h3>
+                  <h4>Binus University</h4>
+                  <p>
+                    My academic background in Computer Science has provided a strong foundation in
+                    software engineering, web application development, database management, system
+                    analysis, and application design.
+                  </p>
+                  <p>
+                    <strong>Thesis:</strong>
+                    Animal Health Examination Application Consultation Website.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div
+            class="tab-pane fade"
+            id="resume-skills"
+            role="tabpanel"
+            aria-labelledby="skills-tab"
+            tabindex="0"
+          >
+            <div class="resume-panel-heading text-center">
+              <span class="resume-line" aria-hidden="true"></span>
+              <h2>Technical Proficiency</h2>
+              <p>
+                Core skills across frontend, backend, databases, integration, deployment, and
+                development leadership.
+              </p>
+            </div>
+
+            <div class="core-skills">
+              <div class="row g-4 skill-list">
+                <div class="col-lg-4 col-md-6">
+                  <h5>Frontend</h5>
+
+                  <div class="skill-item" style="--skill-width: 90%">
+                    <div class="skill-meta">
+                      <span>HTML, CSS &amp; JavaScript</span>
+                      <strong>90%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+
+                  <div class="skill-item" style="--skill-width: 88%">
+                    <div class="skill-meta">
+                      <span>jQuery &amp; Ajax</span>
+                      <strong>88%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+
+                  <div class="skill-item" style="--skill-width: 88%">
+                    <div class="skill-meta">
+                      <span>Bootstrap &amp; Tailwind CSS</span>
+                      <strong>88%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+
+                  <div class="skill-item" style="--skill-width: 82%">
+                    <div class="skill-meta">
+                      <span>Vue.js</span>
+                      <strong>82%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <h5>Backend</h5>
+
+                  <div class="skill-item" style="--skill-width: 93%">
+                    <div class="skill-meta">
+                      <span>PHP &amp; OOP</span>
+                      <strong>93%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+
+                  <div class="skill-item" style="--skill-width: 90%">
+                    <div class="skill-meta">
+                      <span>Laravel &amp; CodeIgniter</span>
+                      <strong>90%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+
+                  <div class="skill-item" style="--skill-width: 90%">
+                    <div class="skill-meta">
+                      <span>REST API Development</span>
+                      <strong>90%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+
+                  <div class="skill-item" style="--skill-width: 70%">
+                    <div class="skill-meta">
+                      <span>Ruby on Rails</span>
+                      <strong>70%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <h5>Database</h5>
+
+                  <div class="skill-item" style="--skill-width: 88%">
+                    <div class="skill-meta">
+                      <span>PostgreSQL</span>
+                      <strong>88%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+
+                  <div class="skill-item" style="--skill-width: 88%">
+                    <div class="skill-meta">
+                      <span>MySQL</span>
+                      <strong>88%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+
+                  <div class="skill-item" style="--skill-width: 85%">
+                    <div class="skill-meta">
+                      <span>SQL Server</span>
+                      <strong>85%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+
+                  <div class="skill-item" style="--skill-width: 80%">
+                    <div class="skill-meta">
+                      <span>Query Optimization</span>
+                      <strong>80%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <h5>System Integration</h5>
+
+                  <div class="skill-item" style="--skill-width: 85%">
+                    <div class="skill-meta">
+                      <span>SAP RFC / BAPI / API</span>
+                      <strong>85%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+
+                  <div class="skill-item" style="--skill-width: 85%">
+                    <div class="skill-meta">
+                      <span>ERP Integration</span>
+                      <strong>85%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+
+                  <div class="skill-item" style="--skill-width: 88%">
+                    <div class="skill-meta">
+                      <span>External API Integration</span>
+                      <strong>88%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <h5>DevOps &amp; Deployment</h5>
+
+                  <div class="skill-item" style="--skill-width: 85%">
+                    <div class="skill-meta">
+                      <span>Git, GitLab &amp; GitHub</span>
+                      <strong>85%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+
+                  <div class="skill-item" style="--skill-width: 65%">
+                    <div class="skill-meta">
+                      <span>Docker &amp; Docker Compose</span>
+                      <strong>65%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+
+                  <div class="skill-item" style="--skill-width: 90%">
+                    <div class="skill-meta">
+                      <span>Postman</span>
+                      <strong>90%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <h5>Leadership</h5>
+
+                  <div class="skill-item" style="--skill-width: 90%">
+                    <div class="skill-meta">
+                      <span>Technical Leadership</span>
+                      <strong>90%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+
+                  <div class="skill-item" style="--skill-width: 90%">
+                    <div class="skill-meta">
+                      <span>Code Review</span>
+                      <strong>90%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+
+                  <div class="skill-item" style="--skill-width: 88%">
+                    <div class="skill-meta">
+                      <span>Mentoring Developer</span>
+                      <strong>88%</strong>
+                    </div>
+                    <div class="skill-track">
+                      <span class="skill-progress"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="tab-pane fade"
+            id="resume-certification"
+            role="tabpanel"
+            aria-labelledby="certification-tab"
+            tabindex="0"
+          >
+            <div class="resume-panel-heading text-center">
+              <span class="resume-line" aria-hidden="true"></span>
+              <h2>Professional Certification</h2>
+              <p>
+                Certifications and learning achievements that support my work in agile delivery,
+                cloud data, AI awareness, and data integration.
+              </p>
+            </div>
+
+            <div class="resume-list resume-certification-list">
+              <article class="resume-item">
+                <time>Scrum.org</time>
+                <div>
+                  <h3>Professional Scrum Master I</h3>
+                  <p>
+                    Demonstrates fundamental knowledge of Scrum principles, Agile delivery, Scrum
+                    framework implementation, and team collaboration. This certification supports my
+                    role in managing development workflows, improving team productivity, and
+                    delivering projects more effectively.
+                  </p>
+                  <a
+                    href="assets/pdf/Professional%20Scrum%20Master%20I.pdf"
+                    class="btn cert-download"
+                    download
+                  >
+                    <i class="bi bi-download"></i>
+                    Download Certificate
+                  </a>
+                </div>
+              </article>
+
+              <article class="resume-item">
+                <time>Alibaba</time>
+                <div>
+                  <h3>Ethical Considerations in AI and Generative AI Development</h3>
+                  <p>
+                    Completed certification focused on ethical awareness in AI and Generative AI
+                    development. This certification supports responsible technology development by
+                    considering fairness, transparency, risk, and ethical impact in AI-based
+                    solutions.
+                  </p>
+                  <a
+                    href="assets/pdf/Ethical%20Considerations%20in%20Al%20and%20Generative%20Al%20Development.pdf"
+                    class="btn cert-download"
+                    download
+                  >
+                    <i class="bi bi-download"></i>
+                    Download Certificate
+                  </a>
+                </div>
+              </article>
+
+              <article class="resume-item">
+                <time>Alibaba</time>
+                <div>
+                  <h3>Introduction to Alibaba Cloud Big Data</h3>
+                  <p>
+                    Completed certification covering data integration pipeline setup using Alibaba
+                    Cloud MaxCompute and DataWorks. This supports my understanding of data workflow
+                    automation, ETL processes, and cloud-based data integration.
+                  </p>
+                  <a
+                    href="assets/pdf/Introduction%20to%20Alibaba%20Cloud%20Big%20Data.pdf"
+                    class="btn cert-download"
+                    download
+                  >
+                    <i class="bi bi-download"></i>
+                    Download Certificate
+                  </a>
+                </div>
+              </article>
+
+              <article class="resume-item">
+                <time>Alibaba</time>
+                <div>
+                  <h3>Setting Up a Data Integration Pipeline with MaxCompute and DataWorks</h3>
+                  <p>
+                    Completed certification focused on ethical awareness in AI and Generative AI
+                    development. This certification supports responsible technology development by
+                    considering fairness, transparency, risk, and ethical impact in AI-based
+                    solutions.
+                  </p>
+                  <a
+                    href="assets/pdf/Setting%20Up%20a%20Data%20Integration%20Pipeline%20with%20MaxCompute%20and%20DataWorks.pdf"
+                    class="btn cert-download"
+                    download
+                  >
+                    <i class="bi bi-download"></i>
+                    Download Certificate
+                  </a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-section" id="services">
+      <div class="container" data-aos="fade-up">
+        <div class="section-heading text-center">
+          <p class="section-kicker text-uppercase">Services</p>
+          <h2>My Services</h2>
+          <p class="section-description mx-auto">
+            I help build reliable web applications, scalable integrations, and clean digital
+            products from planning, development, deployment, to long-term maintenance.
+          </p>
+        </div>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center g-5">
+          <div class="col-md-6">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <div class="service-content">
+                <h3>Web Application Development</h3>
+                <p>
+                  Developing scalable backend systems and REST APIs using PHP, Laravel, CodeIgniter,
+                  Lumen, and other backend technologies.
+                </p>
+                <a href="services/fullstack-development.html" class="read-more service-link">
+                  <span>Explore</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-diagram-3"></i>
+              </div>
+              <div class="service-content">
+                <h3>Backend &amp; API Development</h3>
+                <p>
+                  Developing scalable backend systems and REST APIs using PHP, Laravel, CodeIgniter,
+                  Lumen, and other backend technologies.
+                </p>
+                <a href="services/backend-api.html" class="service-link">
+                  <span>Explore</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-window-sidebar"></i>
+              </div>
+              <div class="service-content">
+                <h3>Frontend Development</h3>
+                <p>
+                  Converting interface designs into fast, clean, and responsive pages with strong
+                  attention to layout consistency, usability, and mobile experience.
+                </p>
+                <a href="services/frontend-development.html" class="service-link">
+                  <span>Explore</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-database-check"></i>
+              </div>
+              <div class="service-content">
+                <h3>System Integration</h3>
+                <p>
+                  Integrating applications with SAP, ERP, external APIs, payment gateways, and other
+                  third-party systems to support business process automation.
+                </p>
+                <a href="services/system-integration.html" class="service-link">
+                  <span>Explore</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-database-check"></i>
+              </div>
+              <div class="service-content">
+                <h3>Database Design &amp; Query Optimization</h3>
+                <p>
+                  Structuring database schemas, improving query performance, and working with MySQL,
+                  PostgreSQL, SQL Server, and reporting-ready data flows.
+                </p>
+                <a href="services/database.html" class="service-link">
+                  <span>Explore</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-people"></i>
+              </div>
+              <div class="service-content">
+                <h3>Technical Leadership</h3>
+                <p>
+                  Supporting teams with code review, architecture direction, mentoring, task
+                  breakdown, and delivery coordination across technical and business needs.
+                </p>
+                <a href="services/technical-leadership.html" class="service-link">
+                  <span>Explore</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+      <div class="container section-title section-heading text-center" data-aos="fade-up">
+        <p class="section-kicker text-uppercase">Portfolio</p>
+        <h2>My Portfolio</h2>
+        <p class="section-description mx-auto">
+          Selected work and project showcases across web development, system integration, frontend
+          implementation, and technical solution delivery.
+        </p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div
+          class="isotope-layout"
+          data-default-filter="*"
+          data-layout="masonry"
+          data-sort="original-order"
+        >
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+            <li data-filter="*" class="filter-active">All Work</li>
+            <li data-filter=".filter-fullstack">Fullstack</li>
+            <li data-filter=".filter-backend">Backend & API</li>
+            <li data-filter=".filter-frontend">Frontend</li>
+            <li data-filter=".filter-leadership">Leadership</li>
+            <li data-filter=".filter-integration">Integration</li>
+            <li data-filter=".filter-database">Database</li>
+          </ul>
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+            <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-fullstack filter-frontend filter-backend filter-leadership filter-integration filter-database"
+            >
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img
+                    src="assets/img/portfolio/tonasa/semen-tonasa.png"
+                    alt="Creative Project"
+                    class="img-fluid"
+                    loading="lazy"
+                  />
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">Fullstack Web Development</span>
+                      <h4>Guest Accommodation & Transportation Request System</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a
+                        href="assets/img/portfolio/tonasa/semen-tonasa.png"
+                        class="glightbox portfolio-link"
+                      >
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="portofolio/semen-tonasa.html" class="portfolio-details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag">Laravel</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">MySQL</span>
+                  </div>
+                  <div class="project-year">2024</div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-frontend filter-leadership filter-integration"
+            >
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img
+                    src="assets/img/portfolio/samudra/1.jpg"
+                    alt="Digital Project"
+                    class="img-fluid"
+                    loading="lazy"
+                  />
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">Frontend Development</span>
+                      <h4>Company Profile Website</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/samudra/1.jpg" class="glightbox portfolio-link">
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="portofolio/frontend.html" class="portfolio-details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag">Web Design</span>
+                    <span class="tag">Bootstrap</span>
+                  </div>
+                  <div class="project-year">2022</div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-fullstack filter-frontend filter-backend filter-leadership filter-database filter-integration"
+            >
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img
+                    src="assets/img/portfolio/legalku/1.jpg"
+                    alt="Creative Project"
+                    class="img-fluid"
+                    loading="lazy"
+                  />
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">Fullstack Web Development</span>
+                      <span class="project-category">Tech Leadership</span>
+                      <h4>Letter Management SaaS Platform</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/legalku/1.jpg" class="glightbox portfolio-link">
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="portofolio/legalku.html" class="portfolio-details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag">Laravel</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">MySQL</span>
+                  </div>
+                  <div class="project-year">2022</div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-backend filter-database filter-integration"
+            >
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img
+                    src="assets/img/portfolio/GED.webp"
+                    alt="Development Project"
+                    class="img-fluid"
+                    loading="lazy"
+                  />
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">Backend &amp; API Development</span>
+                      <h4>Tracking System</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/GED.webp" class="glightbox portfolio-link">
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="portofolio/ged.html" class="portfolio-details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag">CodeIgniter</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">MySQL</span>
+                  </div>
+                  <div class="project-year">2021</div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-fullstack filter-frontend filter-backend filter-database"
+            >
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img
+                    src="assets/img/portfolio/she-sig/she-sig2.png"
+                    alt="Creative Project"
+                    class="img-fluid"
+                    loading="lazy"
+                  />
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">Fullstack Development</span>
+                      <h4>SHE K3 Semen Indonesia Group</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a
+                        href="assets/img/portfolio/she-sig/she-sig2.png"
+                        class="glightbox portfolio-link"
+                      >
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="portofolio/she-sig.html" class="portfolio-details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag">CodeIgniter</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">Vue.js</span>
+                  </div>
+                  <div class="project-year">2024</div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-fullstack filter-database filter-integration filter-leadership filter-backend filter-fullstack filter-frontend"
+            >
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img
+                    src="assets/img/portfolio/procsi-bai/logo.png"
+                    alt="Technical Leadership"
+                    class="img-fluid"
+                    loading="lazy"
+                  />
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">Technical Leadership</span>
+                      <h4>Procurement System</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a
+                        href="assets/img/portfolio/procsi-bai/logo.png"
+                        class="glightbox portfolio-link"
+                      >
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="portofolio/procsi-bai.html" class="portfolio-details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag">Technical Leadership</span>
+                  </div>
+                  <div class="project-year">2025</div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-fullstack filter-database filter-integration filter-leadership filter-backend filter-fullstack filter-frontend"
+            >
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img
+                    src="assets/img/portfolio/len/logo.png"
+                    alt="Technical Leadership"
+                    class="img-fluid"
+                    loading="lazy"
+                  />
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">Technical Leadership</span>
+                      <h4>Procurement System</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/len/logo.png" class="glightbox portfolio-link">
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="portofolio/procsi-len.html" class="portfolio-details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag">Technical Leadership</span>
+                  </div>
+                  <div class="project-year">2025</div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-fullstack filter-database filter-integration filter-leadership filter-backend filter-fullstack filter-frontend"
+            >
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img
+                    src="assets/img/portfolio/dahana/logo.png"
+                    alt="Technical Leadership"
+                    class="img-fluid"
+                    loading="lazy"
+                  />
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">Technical Leadership</span>
+                      <h4>Procurement System</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a
+                        href="assets/img/portfolio/dahana/logo.png"
+                        class="glightbox portfolio-link"
+                      >
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="portofolio/procsi-dahana.html" class="portfolio-details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag">Technical Leadership</span>
+                  </div>
+                  <div class="project-year">2025</div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-fullstack filter-database filter-integration filter-leadership filter-backend filter-fullstack filter-frontend"
+            >
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img
+                    src="assets/img/portfolio/dahana/logo.png"
+                    alt="Technical Leadership"
+                    class="img-fluid"
+                    loading="lazy"
+                  />
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">Technical Leadership</span>
+                      <h4>Procurement System</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a
+                        href="assets/img/portfolio/dahana/logo.png"
+                        class="glightbox portfolio-link"
+                      >
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="portofolio/procsi-smi.html" class="portfolio-details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag">Technical Leadership</span>
+                  </div>
+                  <div class="project-year">2026</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-bottom" data-aos="fade-up" data-aos-delay="400">
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <h3>Like what you see?</h3>
+              <p>
+                I am available to discuss web application development, system integration, and
+                technical leadership needs for your next project.
+              </p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <a href="#contact" class="btn btn-accent">Let's Work Together</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container section-title">
+        <span class="subtitle">Contact</span>
+        <h2>Let's Build Something Reliable</h2>
+        <p>
+          Available for web application development, backend API work, system integration, technical
+          leadership, and freelance collaboration. Send a message and I will get back to you as soon
+          as possible.
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4">
+            <div class="info-item">
+              <div class="icon-wrapper">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div>
+                <h3>Address</h3>
+                <p>Indonesia</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="icon-wrapper">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div>
+                <h3>Call Me</h3>
+                <p><a href="tel:+6281234567890">+62 812 3456 7890</a></p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="icon-wrapper">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div>
+                <h3>Email Me</h3>
+                <p><a href="mailto:vickyfahreza23@gmail.com">vickyfahreza23@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <form class="php-email-form contact-form" data-contact-form>
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    placeholder="Your Name"
+                    required=""
+                  />
+                </div>
+
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    placeholder="Your Email"
+                    required=""
+                  />
+                </div>
+
+                <div class="col-md-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    placeholder="Subject"
+                    required=""
+                  />
+                </div>
+
+                <div class="col-md-12">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="6"
+                    placeholder="Message"
+                    required=""
+                  ></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your email client is ready with the message. Thank you!
+                  </div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer" class="footer">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="#intro" class="logo d-flex align-items-center">
+              <span class="sitename">Vicky.</span>
+            </a>
+            <p>
+              Fullstack Developer and Technical Lead Developer focused on building reliable web
+              applications, clean backend services, responsive interfaces, and practical system
+              integrations for real business workflows.
+            </p>
+            <div class="social-links d-flex mt-4">
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="LinkedIn"
+              >
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="bi bi-github"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Instagram"
+              >
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="mailto:vickyfahreza23@gmail.com" aria-label="Email">
+                <i class="bi bi-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#intro">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="services/fullstack-development.html">Fullstack Development</a></li>
+              <li><a href="services/backend-api.html">Backend &amp; API</a></li>
+              <li><a href="services/frontend-development.html">Frontend Development</a></li>
+              <li><a href="services/system-integration.html">System Integration</a></li>
+              <li><a href="services/technical-leadership.html">Technical Leadership</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact</h4>
+            <p>Indonesia</p>
+            <p>Available for work / Freelance</p>
+            <p class="mt-4">
+              <strong>Phone:</strong>
+              <span>+62 878 3249 5551</span>
+            </p>
+            <p>
+              <strong>Email:</strong>
+              <span>vickyfahreza23@gmail.com</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>
+          <span>&copy;</span>
+          <span>Copyright</span>
+          <strong class="px-1 sitename">Vicky Fahreza</strong>
+          <span>All Rights Reserved</span>
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
