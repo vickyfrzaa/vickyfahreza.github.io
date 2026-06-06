@@ -22,99 +22,21 @@
       rel="stylesheet"
     />
     <link href="assets/css/style.css" rel="stylesheet" />
-    <style id="preloader-critical-style">
-      body.is-loading { overflow: hidden; }
-      .site-preloader {
-        position: fixed;
-        inset: 0;
-        z-index: 2147483647;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        background: #171717;
-        opacity: 1;
-        visibility: visible;
-        transition: opacity 0.45s ease, visibility 0.45s ease;
-      }
-      .site-preloader.is-hidden {
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-      }
-      .site-preloader .preloader-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 18px;
-      }
-      .site-preloader .preloader-mark {
-        position: relative;
-        width: 64px;
-        height: 64px;
-      }
-      .site-preloader .preloader-mark::before,
-      .site-preloader .preloader-mark::after {
-        position: absolute;
-        inset: 0;
-        border-radius: 50%;
-        content: "";
-      }
-      .site-preloader .preloader-mark::before {
-        border: 4px solid rgba(255, 255, 255, 0.12);
-      }
-      .site-preloader .preloader-mark::after {
-        border: 4px solid transparent;
-        border-top-color: #e13a16;
-        border-right-color: #e13a16;
-        animation: preloaderSpin 0.85s linear infinite;
-      }
-      .site-preloader .preloader-text {
-        color: #fff;
-        font-family: Georgia, 'Times New Roman', serif;
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 1;
-      }
-      @keyframes preloaderSpin {
-        to { transform: rotate(360deg); }
-      }
-    </style>
   </head>
 
-  <body>
+  <body class="is-loading">
     <div class="site-preloader" aria-label="Loading page" role="status">
       <div class="preloader-content">
         <span class="preloader-mark" aria-hidden="true"></span>
         <span class="preloader-text">Vicky.</span>
       </div>
     </div>
-    <script>
-      (function () {
-        document.body.classList.add("is-loading");
-        var preloader = document.querySelector(".site-preloader");
-        if (!preloader) return;
-
-        function hidePreloader() {
-          preloader.classList.add("is-hidden");
-          document.body.classList.remove("is-loading");
-          window.setTimeout(function () {
-            if (preloader && preloader.parentNode) {
-              preloader.parentNode.removeChild(preloader);
-            }
-          }, 500);
-        }
-
-        window.addEventListener("load", function () {
-          window.setTimeout(hidePreloader, 250);
-        });
-        window.setTimeout(hidePreloader, 2500);
-      })();
-    </script>
     <main class="hero-page">
       <nav class="navbar navbar-expand-lg top-nav">
         <div class="container-fluid px-0">
-          <a class="navbar-brand" href="#intro">Vicky.</a>
+          <a class="navbar-brand" href="#intro">Vicky
+            <span class="dot">.</span>
+          </a>
 
           <button
             class="navbar-toggler"
@@ -249,19 +171,19 @@
               </div>
 
               <h3>Vicky Fahreza Racasiwi</h3>
-              <span class="profile-role">Tech Lead Developer</span>
+              <span class="profile-role">Technical Lead Developer</span>
               <span class="profile-role">Full Stack Developer</span>
 
               <div
                 class="rating d-flex align-items-center justify-content-center gap-1"
-                aria-label="Rating 4.8 out of 5"
+                aria-label="Rating 5.0 out of 5"
               >
                 <i class="bi bi-star-fill"></i>
                 <i class="bi bi-star-fill"></i>
                 <i class="bi bi-star-fill"></i>
                 <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-half"></i>
-                <span>4.8</span>
+                <i class="bi bi-star-fill"></i>
+                <span>5.0</span>
               </div>
 
               <div class="profile-stats row g-0 text-center">
@@ -1802,6 +1724,7 @@
               <li><a href="#resume">Resume</a></li>
               <li><a href="#services">Services</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
           <div class="col-lg-2 col-6 footer-links">

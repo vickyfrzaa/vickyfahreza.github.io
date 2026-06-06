@@ -29,10 +29,11 @@ body.is-loading {
 .site-preloader {
   position: fixed;
   inset: 0;
-  z-index: 99999;
+  z-index: 2147483647;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
   background: #171717;
   opacity: 1;
   visibility: visible;
@@ -138,9 +139,14 @@ body.is-loading {
 .navbar-brand {
   color: #fff;
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: 31px;
+  font-size: 30px;
   line-height: 1;
-  letter-spacing: 0;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.navbar-brand .dot {
+  color: var(--accent);
 }
 
 .navbar-brand:hover,
@@ -536,14 +542,17 @@ body.is-loading {
 }
 
 .profile-role {
-  margin-bottom: 30px;
-  color: #ff4b4b;
+  display: block;
+  margin-bottom: 6px;
+  color: var(--accent);
   font-size: 14px;
   font-weight: 800;
+  line-height: 1.35;
 }
 
 .rating {
-  margin-bottom: 35px;
+  margin-top: 18px;
+  margin-bottom: 28px;
   color: #ffc12b;
   font-size: 17px;
 }
